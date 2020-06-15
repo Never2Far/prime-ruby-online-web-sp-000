@@ -19,7 +19,7 @@ def prime?(n)
 end
 
 
-def algorithm (n)
+def algorithm(n)
   i = 5
   while i * i <= n do
     if ((n % i == 0) || (n % (i + 2) == 0))
