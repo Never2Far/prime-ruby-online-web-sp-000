@@ -24,7 +24,7 @@ def algorithm (n)
   while i * i <= n do
     if ((n % i == 0) || (n % (i + 2) == 0))
       return false
-    else 
+    else
       i = i + 6
     end
   end
