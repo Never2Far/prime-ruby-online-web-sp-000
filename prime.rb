@@ -27,3 +27,4 @@ def algorithm (n)
     else i = i + 6
   end
 end
+end
