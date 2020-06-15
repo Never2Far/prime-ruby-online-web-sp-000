@@ -21,9 +21,9 @@ end
 
 def algorithm (n)
   i = 5
-  while i * i <= n {
+  while i * i <= n do
     if (n % i == 0) || (n % (i + 2) == 0)
       return false
     else i = i + 6
-  }
+  end
 end
