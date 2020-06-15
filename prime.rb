@@ -8,7 +8,9 @@ def prime?(n)
 
   i = 5
   while i * i <= n {
-    (n % i == 0) || (n % (i + 2) == 0) ? false : i = i + 6
+    if (n % i == 0) || (n % (i + 2) == 0)
+      return false
+    else i = i + 6
   }
 
   return true
