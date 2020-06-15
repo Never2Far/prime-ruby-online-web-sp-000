@@ -4,8 +4,8 @@ def prime?(n)
     return n > 1
   elsif (n % 2 == 0) || (n % 3 == 0)
     return false
-  elsif !algorithm(n)
-    return false
+  elsif algorithm(n)
+    return true
   else
     return true
   end
