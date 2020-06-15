@@ -3,7 +3,7 @@
    return false if n < 2
 
  (2..n/2).none?{|i| n % i == 0}
-# 
+#
 #   if n <= 3
 #     return n > 1
 #   elsif (n % 2 == 0) || (n % 3 == 0)
@@ -13,7 +13,7 @@
 #   else
 #     return true
 #   end
-# 
+#
 #   # i = 5
 #   # while i * i <= n {
 #   #   if (n % i == 0) || (n % (i + 2) == 0)
@@ -21,8 +21,8 @@
 #   #   else i = i + 6
 #   # }
 # end
-# 
-# 
+#
+#
 # def algorithm(n)
 #   i = 5
 #   while i * i <= n do
